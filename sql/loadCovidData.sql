@@ -1,0 +1,6 @@
+LOAD DATA LOCAL 
+INFILE 'covid_cleaned.csv' 
+INTO TABLE covid.covidCleanedBase 
+FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
